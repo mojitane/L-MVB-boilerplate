@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type" : "git",
-    "url" : ""
+    "url" : "https://github.com/monofaktur/L-MVB-boilerplate"
   },
   "devDependencies": {
     "axios": "^0.16.2",
