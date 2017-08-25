@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Japancal</title>
+  <link rel="stylesheet" href="dist/css/app.css">
+</head>
+<body>
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          <a href="">Hero title</a>
+        </h1>
+        <h2 class="subtitle">
+          Hero subtitle test
+        </h2>
+      </div>
+    </div>
+  </section>
+  <div class="main">
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Section</h1>
+      <h2 class="subtitle">
+        A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
+      </h2>
+    </div>
+
+    <div class="container" id="app">
+      <hr>
+      <example></example>
+      <hr>
+      <button @click="testJSON">Test JSON</button><button @click="posts = ''">Clear</button>
+      <ul v-if="posts">
+        <li v-for="n in 15" v-cloak><b>{{ posts[n-1].id }}</b> <span style="color:rgb(215, 215, 215);">{{ posts[n-1].title }}</span></li>
+      </ul>
+      <!-- <pre class="jsonPre">{{ posts }}</pre> -->
+    </div>
+  </section>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+        </p>
+        <p>
+          <a class="icon" href="https://github.com/jgthms/bulma">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="dist/js/manifest.js"></script>
+  <script src="dist/js/vendor.js"></script>
+  <script src="dist/js/app.js"></script>
+</body>
+</html>
