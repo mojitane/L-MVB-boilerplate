@@ -1,10 +1,14 @@
 {
-  "name": "japancal",
+  "name": "L-MVB-boilerplate",
   "version": "0.1.0",
-  "description": "Calculate dates and more",
+  "description": "description",
   "main": "index.js",
   "author": "Maximilian Henrich <henrich.maximilian@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : ""
+  },
   "devDependencies": {
     "axios": "^0.16.2",
     "bulma": "^0.5.1",
