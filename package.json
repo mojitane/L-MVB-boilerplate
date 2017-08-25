@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Maximilian Henrich <henrich.maximilian@gmail.com>",
   "license": "MIT",
+  "private": true,
   "repository": {
     "type" : "git",
     "url" : "https://github.com/monofaktur/L-MVB-boilerplate"
